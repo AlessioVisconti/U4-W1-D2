@@ -18,10 +18,11 @@ namespace U4_W1_D2
         //setting 
         public string? Name { get; set; }
         public string? Surname { get; set; }
-        public int? Age { get; set; }
+        public int Age { get; set; }
         public void GetName()
         { 
             Console.WriteLine($"The name is: {Name}");
+           
         }
         public void GetSurname()
         {
@@ -30,6 +31,23 @@ namespace U4_W1_D2
         public void GetAge()
         {
             Console.WriteLine($"The age is: {Age}");
+        }
+        public string GetNameReturn()
+        {
+            return Name;
+           
+        }
+        public string GetSurnameReturn()
+        {
+            return Surname;
+        }
+        public int GetAgeReturn()
+        {
+            return Age;
+        }
+        public void GetDeatails()
+        {
+            Console.WriteLine($"The name is: {Name}//The surname is: {Surname}//The age is: {Age}");
         }
     }
 }
