@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading.Tasks; 
 
-namespace U4_W1_D2
+namespace U4_W1_D2 
 {
     internal class Persona
     {
@@ -15,12 +15,12 @@ namespace U4_W1_D2
             Surname = surname;
             Age = age;
         }
-        //setting
+        //setting 
         public string? Name { get; set; }
         public string? Surname { get; set; }
         public int? Age { get; set; }
         public void GetName()
-        {
+        { 
             Console.WriteLine($"The name is: {Name}");
         }
         public void GetSurname()
