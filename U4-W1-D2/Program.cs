@@ -5,6 +5,7 @@ var Francesco = new Persona("Francesco", "Schettino", 64);
 Francesco.GetName();
 Francesco.GetAge();
 Francesco.GetSurname();
+Console.WriteLine(Francesco.GetNameReturn()+ Francesco.GetNameReturn()+ Francesco.GetSurnameReturn());
 Console.WriteLine(Francesco.GetNameReturn());
 Console.WriteLine(Francesco.GetSurnameReturn());
 Console.WriteLine(Francesco.GetAgeReturn());
